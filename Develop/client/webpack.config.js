@@ -31,19 +31,24 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'PWAtexteditor',
-        short_name: 'PWA-TextEdit',
+        ios: {
+          'apple-touch-icon': 'JATE',
+          "apple-mobile-web-app-capable": true
+        },
+        name: 'Just Another Text Editor',
+        short_name: 'JATE',
         description: 'Just Another Text Editor',
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: '/',
-        publicPath: '/',
+        start_url: './',
+        publicPath: './',
         crossorigin: 'use-credentials',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
-            sizes: [96, 128, 192, 256, 384, 512],
+            sizes: [96, 128, 144, 192, 256, 384, 512],
             destination: path.join('assets', 'icons'),
+            
           }
         ]
       })
