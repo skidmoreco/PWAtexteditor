@@ -48,8 +48,8 @@ THEN I should have proper build scripts for a webpack application
 
 ## SCREENSHOTS:
 ---
-<img src="./Assets/SC1.png" alt="Screenshot of Start Application loading into console.">
-<img src="./Assets/SC2.png" alt="Screenshot of View Employees table showcasing all employee info">
+<img src="./Assets/SC2.png" alt="Screenshot of Start Application loading.">
+<img src="./Assets/SC2.png" alt="Screenshot of caching & localhost.">
 
 
 
