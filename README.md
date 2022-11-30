@@ -42,7 +42,7 @@ THEN I should have proper build scripts for a webpack application
 
 ## Live Site:
 ---
-[GitHub Pages]()
+[GitHub Pages](https://github.com/skidmoreco/PWAtexteditor)
 [Heroku Link]()
 
 
